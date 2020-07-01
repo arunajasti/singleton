@@ -3920,3 +3920,4 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Failure to fin
 2020-07-01 18:46:55,970 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-07-01 18:46:55,971 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
 2020-07-01 18:46:56,036 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-01 18:46:56,036 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Arjun Jasti\workspace\SpringSetterDependency\src\test\resources

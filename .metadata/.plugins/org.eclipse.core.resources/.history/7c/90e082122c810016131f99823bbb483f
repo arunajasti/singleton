@@ -1,0 +1,26 @@
+package thisandsuper;
+/*
+
+
+
+Before seeing difference between this and super keywords in Java, let's see some similarities between them :
+1) Both this and super are NON STATIC and can not be used in static context, 
+which means you can not use this and super keyword inside main method in Java. 
+
+2) Both this and super can be used in constructor chaining to call another constructor e.g. 
+this() and super() respectively calls no argument constructor of child and parent class.
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+

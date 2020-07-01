@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;Mybascimethod.java&apos; to &apos;Mybasicmethod.java&apos;&#x0D;&#x0A;- Original project: &apos;HelloWorld&apos;&#x0D;&#x0A;- Original element: &apos;Mybascimethod.java&apos;&#x0D;&#x0A;- Renamed element: &apos;Mybasicmethod.java&apos;" description="Rename compilation unit &apos;Mybascimethod.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{Mybascimethod.java" name="Mybasicmethod.java" references="false" stamp="1441004584652" version="1.0"/>
+</session>

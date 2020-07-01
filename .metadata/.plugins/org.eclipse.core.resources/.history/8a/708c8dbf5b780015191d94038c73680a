@@ -1,0 +1,21 @@
+package collections;
+
+import java.util.ArrayList;
+
+public class ArrayList1 {
+
+	public static void main(String[] args) 
+	{
+		//ArrayList declaration with String datatype
+		ArrayList<String>array=new ArrayList<String>();
+		
+		array.add("Sandhya");
+		array.add("Aruna");
+		array.add("Arjun");
+		array.add("Rikhil");
+		array.add("Rma");
+		array.add("Sandhya");
+		
+		System.out.println("Print the names"+array);
+		}
+	}

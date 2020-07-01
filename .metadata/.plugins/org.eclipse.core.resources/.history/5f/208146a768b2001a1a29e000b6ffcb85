@@ -1,0 +1,26 @@
+package own;
+
+ class SingletonClass {
+	private static SingletonClass obj = null;
+	private SingletonClass(){
+		/*private constructor will prevent 
+		 * the instantiation of this class directly*/
+	}
+	public static SingletonClass objectCreationMethod(){ //getInstance()
+		/*This logic will ensure that no more than
+		 * one object can be created at a time */
+		if(obj==null){
+			obj = new SingletonClass();
+		}
+		return obj;
+	}
+	public void display(){
+		System.out.println("Sngletonclass example");
+	}
+	}
+
+public class MainSingletonClass(){
+	
+}
+
+

@@ -1,0 +1,22 @@
+package abstractProgram;
+
+public class EmployeeDemo {
+
+	public static void main(String[] args) 
+	{
+		Salary sal=new Salary(1, "aruna", "4967", 36000);
+		Employee e=new Salary(2,"rama","north 32nd st,Apt # 3A",27000);//run time polymorphism
+
+		System.out.println("Mail checking using salary reference: ");
+		sal.mail();
+		
+		System.out.println("Mail checking using Employee reference: ");
+		e.mail();
+
+		double pay=sal.computePay(2000.00);
+		System.out.println(pay);
+		
+		//System.out.println("Compute pay salary reference: " +sal.computePay(2000) );
+	}
+
+}

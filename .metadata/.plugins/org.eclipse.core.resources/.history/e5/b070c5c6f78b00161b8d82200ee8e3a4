@@ -1,0 +1,22 @@
+package finalKeyword;
+
+public class BlankFinalVariable 
+{
+private final int speedlimit;
+
+	public BlankFinalVariable(int speedlimit) {
+	
+	this.speedlimit = speedlimit;
+}
+	public int getSpeedlimit() {
+		return speedlimit;
+	}
+
+	public static void main(String[] args) 
+	{
+
+BlankFinalVariable blank=new BlankFinalVariable(100);
+blank.getSpeedlimit();
+
+	}
+}

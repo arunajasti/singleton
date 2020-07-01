@@ -1,0 +1,11 @@
+package stringMethods;
+//The java string contains() method searches the Sequence of Characters in this string. 
+//It returns true if sequence of char values are found in this string otherwise returns false.
+public class Contains {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

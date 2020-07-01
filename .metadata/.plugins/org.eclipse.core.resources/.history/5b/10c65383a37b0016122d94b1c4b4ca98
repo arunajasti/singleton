@@ -1,0 +1,19 @@
+package loops;
+//what is loop?
+//A loop is nothing but a repetive structure 
+//which is useful to re-execute some set of stmts agin and again as per our requirement.
+
+//For loop: It executes a block of statements repeatedly until the specified condition returns false.
+public class ForLoop 
+{
+public static void main(String[] args) 
+	{
+	System.out.println("print the numbers 1 to 10: ");
+	for(int i=0;i<11;i++)
+	{
+		System.out.println(i);
+	}
+
+	}
+
+}

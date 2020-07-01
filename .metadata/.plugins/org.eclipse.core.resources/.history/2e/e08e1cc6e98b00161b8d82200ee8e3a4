@@ -1,0 +1,14 @@
+package finalKeyword;
+
+public class FinalVariable 
+{
+ int speedlimit=90;
+	public static void main(String[] args)
+	{
+	
+FinalVariable fin=new FinalVariable();
+fin.speedlimit=100;
+System.out.println("Final Variable: "+ fin.speedlimit);
+	}
+
+}

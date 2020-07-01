@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;ConstructorOverloading&apos; to &apos;ConstructorOverloadingandCOPYConstructor&apos;&#x0D;&#x0A;- Original project: &apos;Aruna&apos;&#x0D;&#x0A;- Original element: &apos;Aruna/src/ConstructorOverloading&apos;&#x0D;&#x0A;- Renamed element: &apos;Aruna/src/ConstructorOverloadingandCOPYConstructor&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;ConstructorOverloading&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;ConstructorOverloading" name="ConstructorOverloadingandCOPYConstructor" qualified="false" references="true" stamp="1479763285959" textual="false" version="1.0"/>
+</session>

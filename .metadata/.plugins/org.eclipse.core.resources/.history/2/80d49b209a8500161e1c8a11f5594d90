@@ -1,0 +1,13 @@
+package inheritance;
+
+public class Sub extends Super
+{
+	String name;
+	public void print()
+	{
+		super.name="parent";
+		name="child";
+		System.out.println("Subclass");
+	}
+
+}

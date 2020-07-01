@@ -1,0 +1,13 @@
+package inheritance;
+
+public class SuperandSubMethod {
+
+	public static void main(String[] args) 
+	{
+		SubMethod sm=new SubMethod();
+		sm.details();
+		System.out.println(sm.getName()+ "and" + sm.name);
+
+	}
+
+}

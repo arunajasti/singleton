@@ -1,0 +1,46 @@
+package carprogram;
+abstract class Car
+{
+	
+	 int  speedLimit = 80;
+	 
+	  public  void getmaximumspeed(int  currentSpeed)
+	  {
+	    if (currentSpeed > speedLimit)
+	    {
+	      System.out.println("Slow down!  You're over the limit by " + (currentSpeed - speedLimit));
+	    }
+	    else
+	    {
+	      System.out.println("Go faster, you're only going " + currentSpeed);
+	    }
+	public static  void  wheels()
+	{
+		
+	}
+	
+}
+class Carstrategy extends Car
+{
+
+	 
+	  }
+
+		
+		
+	}
+	
+	
+
+public class Vehicle1 {
+
+	public static void main(String[] args) 
+	{
+		Car c=new Carstrategy();
+		c.wheels();
+		c.getmaximumspeed();
+		
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.aruna.spring;
+
+import com.aruna.spring.service.IVehicle;
+import com.aruna.spring.service.impl.HondaImpl;
+
+public class SpringSetterClient {
+
+	public static void main(String[] args) {
+		IVehicle veh = new HondaImpl();
+		
+		System.out.println(veh.model());
+
+	}
+
+}

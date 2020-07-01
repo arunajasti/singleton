@@ -1,0 +1,6 @@
+package com.aruna.spring.Spring1;
+
+public interface ITeacher {
+	void teach();
+
+}

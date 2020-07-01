@@ -1,0 +1,5 @@
+package com.aruna.spring.service;
+
+public interface IVehicle {
+
+}

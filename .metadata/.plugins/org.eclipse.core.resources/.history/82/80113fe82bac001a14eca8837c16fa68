@@ -1,0 +1,25 @@
+package service;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import model.Customerinfo;
+import repository.CustomerRepository;
+
+@Service
+public class ICustomerServiceImpl implements ICustomerService {
+	
+@Autowired
+private CustomerRepository customerRepository;
+
+@Override
+public Optional<Customerinfo> findById(Long cusid) {
+	return customerRepository.findById(cusid);
+	
+}
+
+
+
+
+}

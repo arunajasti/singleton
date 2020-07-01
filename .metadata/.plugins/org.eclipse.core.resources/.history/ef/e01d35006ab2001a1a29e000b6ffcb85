@@ -1,0 +1,11 @@
+package own;
+
+public class SingletonClassClient {
+	public static void main(String args[]){
+		SingletonClass myobj = SingletonClass.objectCreationMethod();
+		myobj.display();
+	}
+	
+}
+
+

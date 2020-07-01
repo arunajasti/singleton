@@ -1,0 +1,13 @@
+package com.aruna.spring.SpringBasics.impl;
+
+import com.aruna.spring.Spring1.ITeacher;
+
+public class JavaTeacher implements ITeacher {
+
+	public void teach() {
+	System.out.println("This is Java Teacher");
+		
+	}
+	
+
+}

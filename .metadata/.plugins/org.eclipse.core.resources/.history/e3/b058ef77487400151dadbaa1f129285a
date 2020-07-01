@@ -1,0 +1,32 @@
+package carprogram;
+abstract class Car
+{
+	abstract public void getmaximumspeed();
+	public int wheels()
+	{
+		return 4;
+	}
+	
+}
+class Carstrategy extends Car
+{
+public void getmaximumspeed()
+{
+		System.out.println("car maximun speed");
+		
+	}
+	
+	}
+
+public class Vehicle1 {
+
+	public static void main(String[] args) 
+	{
+		Car c=new Carstrategy();
+		c.wheels();
+		c.getmaximumspeed();
+		
+		
+	}
+
+}

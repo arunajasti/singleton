@@ -1,0 +1,14 @@
+package own;
+
+public class SingletonClass {
+	private static SingletonClass obj = null;
+	private SingletonClass(){
+		/*private constructor will prevent 
+		 * the instantiation of this class directly*/
+	}
+	public static SingletonClass objectCreationMethod(){ //getInstance()
+		return obj;
+	}
+	}
+
+

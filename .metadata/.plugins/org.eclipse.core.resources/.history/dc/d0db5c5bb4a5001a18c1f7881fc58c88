@@ -1,0 +1,26 @@
+package com.aruna.spring.service.impl;
+
+import com.aruna.spring.model.Address;
+import com.aruna.spring.service.IVehicle;
+
+public class HondaImpl implements IVehicle {
+	private Address address =null;
+
+	public String model() {		
+		return "Honda";
+	}
+
+	public int year() {
+		return 2019;
+	}
+	
+
+	public void setAddress(Address address) {
+		this.address = address;
+		System.out.println(address);
+	}
+
+public void print(){
+	System.out.println( this.model() + " "+address.toString());
+}
+}

@@ -1,0 +1,16 @@
+package repository;
+
+import java.util.Optional;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import model.Customerinfo;
+
+@Repository
+public interface CustomerRepository extends JpaRepository<Customerinfo, Long> {
+
+	//Optional<Customerinfo> findById(int cusid);
+
+}

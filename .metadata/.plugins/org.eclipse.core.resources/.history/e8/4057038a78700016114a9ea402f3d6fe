@@ -1,0 +1,31 @@
+
+public class A {
+	class A
+	{
+	     int i;
+	 
+	     {
+	         i = 10;
+	     }
+	 
+	     A(int j)
+	     {
+	         i = j;
+	     }
+	}
+	 
+	class MainClass
+	{
+	     public static void main(String[] args)
+	     {
+	          A a = new A(50);
+	          System.out.println(a.i);
+	     }
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

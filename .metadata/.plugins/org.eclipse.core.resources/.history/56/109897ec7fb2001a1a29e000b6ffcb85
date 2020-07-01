@@ -1,0 +1,5 @@
+package own;
+//to genetare obj of concrete class based on goven info
+public class GetPlan {
+
+}

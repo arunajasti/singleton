@@ -1,0 +1,18 @@
+package finalKeyword;
+
+public class FinalVariable 
+{
+	final int speedlimit=90;
+	public void run(int speed)
+	{
+		//speedlimit=speed;//complie time error because we cannot change the Speedlimit value
+		
+	}
+	public static void main(String[] args)
+	{
+		FinalVariable fin=new FinalVariable();
+		fin.run(100);
+		System.out.println("Final Variable: "+ fin.speedlimit);
+	}
+
+}

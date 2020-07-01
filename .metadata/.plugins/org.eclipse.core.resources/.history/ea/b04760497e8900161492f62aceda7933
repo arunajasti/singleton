@@ -1,0 +1,12 @@
+package studentINFObyusingINHERITANCE;
+
+public class Trainer extends Person
+{
+private double salary;
+
+public Trainer(int id, String name)
+{
+	super(id, name);
+	
+}
+}

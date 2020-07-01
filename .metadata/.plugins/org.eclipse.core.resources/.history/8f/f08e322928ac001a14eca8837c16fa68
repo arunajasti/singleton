@@ -1,0 +1,11 @@
+package repository;
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import model.Customerinfo;
+
+@Repository
+public interface CustomerRepository extends CrudRepository<Customerinfo, Long> {
+
+}

@@ -1,0 +1,15 @@
+package studentINFObyusingINHERITANCE;
+
+public class StudentDemo {
+
+	public static void main(String[] args) 
+	{
+		Student stu=new Student(1,"aruna",2700);
+		Trainer trn=new trn(100,"rama",36000);
+		System.out.println(stu);
+		System.out.println(trn);
+		
+
+	}
+
+}

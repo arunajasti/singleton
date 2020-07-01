@@ -1,0 +1,25 @@
+package finalKeyword;
+
+public class BlankFinalVariable 
+{
+private final int speedlimit;
+
+	public BlankFinalVariable(int speedlimit) {
+	
+	this.speedlimit = speedlimit;
+}
+
+	@Override
+	public String toString() {
+		return " speedlimit  " ;
+	}
+
+	public static void main(String[] args) 
+	{
+
+BlankFinalVariable blank=new BlankFinalVariable(100);
+System.out.println(" BlankFinalVariable="+ blank);
+
+	}
+
+}

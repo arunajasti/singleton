@@ -1,0 +1,12 @@
+package impl;
+
+import com.aruna.spring.Spring1.ITeacher;
+
+public class PythonTeacher implements ITeacher {
+
+	public void teach() {
+		System.out.println("This is python teacher");
+
+	}
+
+}

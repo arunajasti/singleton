@@ -1,0 +1,7 @@
+package service;
+
+import model.Customerinfo;
+
+public interface ICustomerService {
+ Customerinfo getCustomer(Long id);
+}

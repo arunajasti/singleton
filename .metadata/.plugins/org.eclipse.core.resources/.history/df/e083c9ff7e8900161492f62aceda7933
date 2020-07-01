@@ -1,0 +1,19 @@
+package studentINFObyusingINHERITANCE;
+
+public class Person {
+
+	
+	private int id;
+	private String name;
+	public Person(int id, String name)
+	{
+	this.id;
+	this.name=name;
+		
+	}
+
+	public String toString() {
+		return "Person [id=" + id + ", name=" + name + "]";
+	}
+		
+}

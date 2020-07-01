@@ -1,0 +1,10 @@
+package inheritance;
+
+public class Sub
+{
+	public void print()
+	{
+		System.out.println("Subclass");
+	}
+
+}

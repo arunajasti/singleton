@@ -1,0 +1,22 @@
+
+public class Addition {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a,b,c;
+		a=10;
+		b=9;
+		c=a+b;
+		
+		int x,y,z;
+		x=10;
+		y=3;
+		z=x-y;
+		
+		
+				System.out.println("the sum of a and b = "+c);
+				System.out.println("the subtract of x and y = "-z);
+							}
+
+	}
+

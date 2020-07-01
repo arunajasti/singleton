@@ -1,0 +1,12 @@
+package inheritance;
+
+public class SuperandSubConstrutor {
+
+	public static void main(String[] args) 
+	{
+		SubConstructor sc=new SubConstructor("parent","child");
+		System.out.println(sc);
+
+	}
+
+}

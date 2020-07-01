@@ -1,0 +1,5 @@
+package com.aruna.spring.model;
+
+public class Employee {
+
+}

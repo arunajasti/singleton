@@ -1,0 +1,15 @@
+package studentINFObyusingINHERITANCE;
+
+public class Person {
+
+	
+	private int id;
+	private String name;
+	public Person(int id2, String name2)
+	{
+	id2=id;
+	name2=name;
+		
+	}
+	
+}

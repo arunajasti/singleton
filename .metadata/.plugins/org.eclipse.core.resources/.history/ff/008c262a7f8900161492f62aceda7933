@@ -1,0 +1,22 @@
+package studentINFObyusingINHERITANCE;
+
+public class Student extends Person
+{
+private double fee;
+
+public Student(int id,String name,double fee) 
+{
+	super(id,name);
+	this.fee = fee;
+}
+
+@Override
+public String toString() {
+	return "Student [id=" + super.getId() + ", name=" +super.getName + "fee=" + fee + "]";
+}
+
+
+
+
+
+}

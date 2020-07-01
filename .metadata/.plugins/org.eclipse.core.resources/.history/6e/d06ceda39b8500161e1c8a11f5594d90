@@ -1,0 +1,16 @@
+package inheritance;
+
+public class SuperandSubchild {
+
+	public static void main(String[] args)
+	{
+		Sub sb=new Sub();
+		sb.setName("parent");
+		System.out.println();
+		sb.show();
+		sb.print();
+		
+
+	}
+
+}

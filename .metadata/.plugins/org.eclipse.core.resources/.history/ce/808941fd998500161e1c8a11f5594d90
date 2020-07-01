@@ -1,0 +1,11 @@
+package inheritance;
+
+public class Super 
+{
+	String name;
+public void show()
+{
+	name="parentclass";
+System.out.println("Super class");	
+}
+}

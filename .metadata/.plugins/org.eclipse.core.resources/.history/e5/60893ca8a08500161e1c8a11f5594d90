@@ -1,0 +1,11 @@
+package inheritance;
+
+public class SubConstructor 
+{
+String name;
+public SubConstructor(String n1,String n2)//subclass constructor
+{
+	super();
+	name=n2;
+}
+}

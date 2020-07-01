@@ -1,0 +1,15 @@
+package com.aruna.spring.Spring1;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class SpringDriver {
+	public static void main(String[] args) {
+
+		//ITeacher tea = new JavaTeacher();
+		ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
+		 ITeacher tea = ctx.getBean("java",ITeacher.class);
+		tea.teach();
+
+	}
+
+}

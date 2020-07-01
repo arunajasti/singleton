@@ -1,0 +1,18 @@
+package inheritance;
+
+public class Super 
+{
+	private String name;
+
+public void show()
+{
+	
+System.out.println("Super class");	
+}
+public String getName() {
+	return name;
+}
+public void setName(String name) {
+	this.name = name;
+}
+}

@@ -1,0 +1,12 @@
+package inheritance;
+
+public class SuperandSubchild {
+
+	public static void main(String[] args)
+	{
+		Subclass sb=new Subclass();
+		System.out.println("sb");
+
+	}
+
+}

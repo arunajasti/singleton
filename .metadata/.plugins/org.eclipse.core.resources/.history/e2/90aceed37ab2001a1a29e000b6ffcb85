@@ -1,0 +1,17 @@
+package own;
+
+public class EagerSingleton {
+	
+	private static EagerSingleton obj = new EagerSingleton();
+	
+	private EagerSingleton() {
+		System.out.println("Eager Singleton Constructor");
+	}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package own;
+//object of class is created when it is loaded to the memory by JVM.
+public class EagerSingleton {
+
+	private static EagerSingleton obj = new EagerSingleton();
+	
+	private EagerSingleton() {
+		System.out.println("Eager Singleton Constructor");
+	}
+	
+	public static EagerSingleton objectCreationMethod() {
+		return obj;
+		
+	}
+
+
+	public static void main(String[] args) {
+	
+
+	}
+
+}

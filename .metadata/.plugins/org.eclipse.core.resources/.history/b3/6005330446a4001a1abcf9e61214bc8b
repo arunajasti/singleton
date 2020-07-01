@@ -1,0 +1,13 @@
+package com.aruna.spring.Spring1;
+
+import impl.JavaTeacher;
+
+public class SpringDriver {
+	public static void main(String[] args) {
+
+		ITeacher java = new JavaTeacher();
+		java.teach();
+
+	}
+
+}

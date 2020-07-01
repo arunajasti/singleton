@@ -1,0 +1,15 @@
+package inheritance;
+
+public class SubConstructor extends SuperConstructor
+{
+String name;
+public SubConstructor(String n1,String n2)//subclass constructor
+{
+	super(n1);//passing argument to parent class constructor
+	name=n2;
+	}
+public void details()
+{
+	System.out.println(super.name + "and" +name);
+	}
+}
